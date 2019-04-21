@@ -80,15 +80,18 @@ li {
 @media screen and (max-width: 700px) {
   .form {
     width: 90%;
+    flex-direction: column;
   }
   .input {
-    width: 50%;
+    width: 350px;
   }
   .btn {
-    width: 30%;
-    height: 20%;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
   }
   .container {
     height: 90vh;
+    flex-direction: row;
   }
 }
